@@ -88,5 +88,5 @@ app.post("/repositories/:id/like", (request, response) => {
   return response.json({ likes: repositoriesCerto[0].likes })
 
 });
-
+console.log('Server On e Atualizando!')
 module.exports = app;
